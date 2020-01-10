@@ -15,9 +15,10 @@ var magicAnswers = [
 "Go eat a sandwich",
 "You've had enough computer time",
 "The counsel will decide your fate",
+"I'm not entirely sure",
 ];
 
-var randomAnswer = Math.floor(Math.random()*15);
+var randomAnswer = Math.floor(Math.random()*16);
 
 function magicEight(){
 document.getElementById("demo").innerHTML = magicAnswers[randomAnswer];
